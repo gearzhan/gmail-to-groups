@@ -1,0 +1,23 @@
+{
+  "service_account_file": "service-account-key.json",
+  "user_email": "user@yourdomain.com",
+  "last_run": "Never",
+  "migration_tasks": [
+    {
+      "id": "task1",
+      "name": "工作邮件迁移",
+      "enabled": true,
+      "source_label": "work",
+      "target_group": "work-group@yourdomain.com",
+      "description": "迁移工作相关邮件到工作群组"
+    },
+    {
+      "id": "task2",
+      "name": "项目邮件迁移",
+      "enabled": true,
+      "source_label": "project",
+      "target_group": "project-group@yourdomain.com",
+      "description": "迁移项目相关邮件到项目群组"
+    }
+  ]
+}
